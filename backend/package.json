@@ -1,0 +1,26 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "this is a notebooke where you can keep your notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Gupt",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
