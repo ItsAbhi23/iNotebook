@@ -19,8 +19,13 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "react-router-dom": "^6.11.2"
+    
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
+
